@@ -4,7 +4,7 @@
 
 ## Overview
 
-I trained an agent using a Double Deep Q-Network (DDQN) to play expert-level Minesweeper on a 16×30 grid with 99 mines. Over 25 000 games, the agent achieved a win rate of **23.6 %**. Training required approximately ten days on a laptop equipped with an Intel Core i7-6820HQ CPU and an NVIDIA Quadro M2002M GPU. The implementation is in Python 3.7, leveraging Keras 2.3.1 (with a TensorFlow backend), PyGame 1.9.6 for the graphical interface, and Matplotlib 3.2.1 for visualizations. A `requirements.txt` file lists all dependencies.
+I trained an AI agent using a Double Deep Q-Network (DDQN) to play Minesweeper at expert-level (16×30 grid with 99 mines). Over 25,000 games, the agent achieved a win rate of 23.6%, significantly surpassing the average human win rate of around 3%. The implementation primarily uses Python, Keras, and Tensorflow. The agent employs prioritized experience replay, precise state representations, and a specialized convolutional neural network architecture designed to preserve spatial locality, demonstrating  the feasibility and technical intricacies of applying reinforcement learning to a highly combinatorial game environment.
 
 ## Reinforcement Learning with DDQN
 
